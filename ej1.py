@@ -11,12 +11,13 @@ def multiplicacion(a, b):
 def factorial(n):
     if n == 0:
         return 1
-    else:
-        resultado = 1
-        for i in range(1, n + 1):
-            resultado = multiplicacion(resultado, i)
-        return resultado
+    resultado = 1
+    for i in range(1, n + 1):
+        resultado = multiplicacion(resultado, i)
+    return resultado
 
 num = int(input("Ingresa un número para calcular su factorial: "))
 resultado = factorial(num)
 print("El factorial de", num, "es", resultado)
+#factorial es la funcion para calcular el factorial
+#range es el rango de numeros
