@@ -1,13 +1,13 @@
 numeros = [] # Crear una lista vacía para los números
 
-# ciclo para ingresar los números
-while True:
-    i = input("Ingrese un número (o 'fin' para terminar): ") 
-    if i.lower() == 'fin':
-        break 
-    numeros.append(int(i)) 
+
+num1 = input("Ingrese el primer número: ")
+num2 = input("Ingrese el segundo número: ")
 
 resultado = 0 
+
+numeros.append(int(num1))
+numeros.append(int(num2))
 
 # ciclo para sumar los números
 for i in numeros: 
