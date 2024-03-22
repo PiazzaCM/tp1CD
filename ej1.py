@@ -1,11 +1,10 @@
 #Crear una función que dado un número "n" calcular su factorial sin utilizar el operador "*"
-def suma(a, b):
-    return a + b   
+ 
 
 def multiplicacion(a, b):
     resultado = 0
     for _ in range(b):
-        resultado = suma(resultado, a)
+        resultado = resultado+a
     return resultado
 
 def factorial(n):
